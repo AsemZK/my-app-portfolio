@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+
+        android:id="@+id/textView" />
+
+    <Button
+        style="@style/myButtons"
+        android:text="@string/spotify"
+        android:id="@+id/btnSpotify"
+        android:onClick="spotifyOnClick"/>
+
+    <Button
+        style="@style/myButtons"
+        android:text="@string/scores"
+        android:id="@+id/btnScores"
+        android:onClick="scoresOnClick"/>
+
+    <Button
+        style="@style/myButtons"
+        android:text="@string/library"
+        android:id="@+id/btnLibrary"
+        android:onClick="libraryOnClick"/>
+
+    <Button
+        style="@style/myButtons"
+        android:text="@string/buildit"
+        android:id="@+id/btnBuild"
+        android:onClick="buildItOnClick"/>
+
+    <Button
+        style="@style/myButtons"
+        android:text="@string/xyz"
+        android:id="@+id/btnXYZ"
+        android:onClick="xyzOnClick"/>
+
+    <Button
+        style="@style/myButtons.pink"
+        android:text="@string/capstone"
+        android:id="@+id/btnMyApp"
+        android:onClick="myAppOnClick"/>
+</LinearLayout>
